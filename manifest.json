@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Service Desk Keep-Alive",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Sends a request to the service desk to keep the connection alive",
   "permissions": ["activeTab"],
   "web_accessible_resources": [

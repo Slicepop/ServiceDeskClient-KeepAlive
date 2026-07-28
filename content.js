@@ -24,7 +24,7 @@ if (!triggered || triggered == "false") {
 
     console.log("Keeping Service Desk alive");
 
-    setTimeout(uselessRequest, 60000);
+    setTimeout(uselessRequest, 600000);
   };
   uselessRequest();
 }

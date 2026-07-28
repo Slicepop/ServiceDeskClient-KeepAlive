@@ -22,10 +22,10 @@ if (!triggered || triggered == "false") {
       return;
     }
 
-    console.log("ASD");
+    console.log("Keeping Service Desk alive");
 
-    setTimeout(uselessRequest, 600);
+    setTimeout(uselessRequest, 60000);
   };
-  setTimeout(uselessRequest, 600000);
+  uselessRequest();
 }
-// 600000
+// 600000 ms = 10 mins

@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Service Desk Keep-Alive",
+  "version": "1.0",
+  "description": "Sends a request to the service desk to keep the connection alive",
+  "permissions": ["activeTab"],
+  "web_accessible_resources": [
+    {
+      "resources": ["content.js"],
+      "matches": ["https://support.wmed.edu/*"]
+    }
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://support.wmed.edu/*"],
+      "js": ["content.js"],
+      "run at": "document_idle"
+    }
+  ]
+}
